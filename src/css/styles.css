@@ -38,7 +38,7 @@ body::before {
   gap: 30px;
   min-height: calc(100vh - 152px);
   justify-content: center;
-  padding-bottom: 50px; /* Adição: Para garantir espaço extra no final do conteúdo */
+  padding-bottom: 50px;
 }
 
 .selecao-de-personagens .lista-de-personagens {
@@ -112,7 +112,7 @@ body::before {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
-  margin-top: 50px; /* Adição: Para criar uma margem de espaçamento superior */
+  margin-top: 50px;
 }
 
 @media (max-width: 1120px) {
@@ -156,7 +156,6 @@ body::before {
 
 @media (max-width: 480px) {
     .selecao-de-personagens {
-        /* Remove o min-height para que o conteúdo não se comprima */
         min-height: auto; 
     }
 
